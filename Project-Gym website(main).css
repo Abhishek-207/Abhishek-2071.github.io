@@ -1,0 +1,377 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+body {
+    margin: 0%;
+    background-color: #030818;
+    /* font-family: 'Ubuntu', sans-serif;
+     */
+    font-family: 'Baloo Bhai 2', cursive;
+
+
+}
+
+nav {
+    overflow: hidden;
+    display: block;
+    position: fixed;
+    z-index: 1;
+    width: 1700px;
+    height: 140px;
+    margin: auto;
+    /* border: 2px solid red; */
+    background-color: #030818;
+    /*change in  color for navbar*/
+
+
+}
+
+li a {
+    text-decoration: none;
+    color: azure;
+    font-size: large;
+    font-weight: 500;
+    padding: 15px;
+    position: relative;
+    display: block;
+    transition-duration: 0.2s;
+
+
+}
+
+nav li {
+    float: left;
+    padding-top: 45px;
+    padding-right: 78px;
+    padding-bottom: 0px;
+    padding-left: 78px;
+    text-align: center;
+}
+
+
+.img {
+    /* position: absolute; */
+    position: fixed;
+    filter: invert(100%);
+    z-index: 1000;
+    margin: 0;
+    padding-bottom: 75px;
+    padding-top: 0px;
+    display: inline-block;
+    width: 180px;
+    height: 250px;
+}
+
+
+div.video1 {
+    display: inline-block;
+    margin: 0;
+
+    width: 1519px;
+    height: 674px;
+    position: relative;
+    text-align: center;
+}
+
+#container {
+    text-align: center;
+    /* border: 2px solid red; */
+    display: inline-block;
+    width: 500px;
+    height: 350px;
+    margin-bottom: 250px;
+    margin-left: 100px;
+    margin-top: 100px;
+    position: absolute;
+    z-index: 1;
+}
+
+h1 {
+    color: azure;
+}
+
+h1:hover {
+    color: #a4ff00;
+}
+
+.form-grp input {
+    text-align: center;
+    border: 2px solid #5d5dfc;
+    border-radius: 10px;
+    font-size: 20px;
+    width: 400px;
+    margin: 10px auto;
+    display: block;
+    font-family: 'Baloo Bhai 2', cursive;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.form-grp input:hover {
+    width: 405px;
+    font-size: 23px;
+}
+
+ul li:first-child {
+    margin-left: 110px;
+}
+
+
+ul {
+    list-style-type: none;
+
+}
+
+nav li:hover {
+    font-size: 200%;
+
+
+}
+
+.active-home-btn a {
+    color: #a4ff00;
+    /* text-decoration: underline; */
+}
+
+.active-home-btn a:hover {
+    color: azure;
+    /* text-decoration: underline; */
+}
+
+nav a:hover {
+    color: #a4ff00;
+    text-decoration: underline;
+
+    padding-top: 10px;
+    transition-duration: 0.2s;
+}
+
+.submit-button {
+    border: 2px solid #5d5dfc;
+    background-color: #aaaacc;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    width: 270px;
+    height: 40px;
+    margin: 15px auto;
+    display: block;
+    font-family: 'Baloo Bhai 2', cursive;
+    padding: 1px;
+    color: #111153;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    color: #a4ff00;
+    background-color: #030818;
+}
+
+#btn a button {
+    border-radius: 5px;
+    background-color: #ff0000;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    cursor: pointer;
+    margin-left: 675px;
+    margin-top: 640px;
+    z-index: 1;
+    width: 176px;
+    height: 60px;
+    color: azure;
+    padding: 1px 32px;
+    font-size: 25px;
+}
+
+#btn a button:hover {
+    padding-bottom: 10px;
+    transition-duration: 0.2s;
+    background-color: #d23030;
+
+}
+
+.qoute {
+    text-align: center;
+    /* display: inline-block; */
+    position: absolute;
+    /* z-index: 1; */
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 130px;
+    padding: 50px;
+    font-size: 52px;
+}
+
+.color-mix-1 {
+    color: azure;
+}
+
+.color-mix-1:hover {
+    color: #a4ff00;
+}
+
+.color-mix-2 {
+    color: #a4ff00;
+
+}
+
+.color-mix-2:hover {
+    color: azure;
+
+}
+
+.qoute:hover {
+    padding-top: 0.5px;
+    transition-duration: 0.1s;
+}
+
+.qoute-img {
+
+    z-index: 1;
+    display: inline-block;
+    position: absolute;
+    text-align: center;
+    margin-left: 710px;
+    margin-top: 35px;
+    filter: invert(200%);
+    width: 100px;
+}
+
+
+.list-part-1,
+.list-part-2,
+.list-part-3 {
+    margin-top: 20px;
+    margin-left: 110px;
+    color: azure;
+    font-size: x-large;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#part-1 {
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+#part-2 {
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 575px;
+}
+
+#part-3 {
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 990px;
+}
+
+.list-part-1:hover,
+.list-part-2:hover,
+.list-part-3:hover {
+    color: #a4ff00;
+}
+
+#part-1 a,
+#part-2 a,
+#part-3 a {
+    text-decoration: none;
+    font-size: large;
+}
+
+.list-part-li {
+    color: #a4ff00;
+    padding-bottom: 15px;
+    padding-top: 10px;
+}
+
+.list-part-li:hover {
+    color: azure;
+    font-size: large;
+}
+
+.copy-write-text {
+    position: absolute;
+    display: inline-block;
+    font-size: larger;
+    font-weight: bold;
+    color: azure;
+    margin-top: 385px;
+    margin-left: 160px;
+    cursor: pointer;
+}
+
+.copy-write-text:hover {
+    color: white;
+}
+
+/* Me */
+.my-name a {
+    /*     text-decoration: underline; */
+    position: absolute;
+    display: inline-block;
+    font-size: large;
+    color: azure;
+    margin-top: 420px;
+    margin-left: 160px;
+    cursor: pointer;
+}
+
+.my-name a:hover {
+    color: #a4ff00;
+}
+
+/* till here */
+
+.social-handles {
+    display: inline-block;
+    margin-left: 1100px;
+    margin-top: 385px;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+#Socail-icon-1 {
+    color: azure;
+    font-size: 30px;
+}
+
+#Socail-icon-2,
+#Socail-icon-3,
+#Socail-icon-4,
+#Socail-icon-5 {
+    padding-left: 20px;
+    color: azure;
+    font-size: 30px;
+}
+
+#Socail-icon-1:hover {
+    color: #ea4335;
+    font-size: 30.5px;
+}
+
+#Socail-icon-2:hover {
+    color: #0072b1;
+    font-size: 30.5px;
+}
+
+#Socail-icon-3:hover {
+    color: #00acee;
+    font-size: 30.5px;
+}
+
+#Socail-icon-4:hover {
+    color: #4267B2;
+    font-size: 30.5px;
+}
+
+#Socail-icon-5:hover {
+    color: #dd2a7b;
+    font-size: 30.5px;
+}
